@@ -1,0 +1,46 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name, .role {
+  text-align: center;
+}
+
+img.photo {
+  max-width: 300px;
+  max-height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.center {
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  max-width: 25%;
+}
+
+.skills {
+  max-width: 25%;
+}
+ul {
+  list-style-type: none;
+}
+
+.contact {
+  display: flex;
+  position: relative;
+  overflow: auto;
+  bottom: 0;
+  justify-content: center;
+}
+
+li {
+margin-right: 2em;
+}
